@@ -30,4 +30,14 @@
     justify-content: center;   /* <- Left to Right ->*/
     align-items: flex-start;
     color: #666666;
+    text-decoration:none;
 }
+a:hover .linkbottom {
+    color:red;
+    
+}
+ a:hover .bottomlink{
+
+     color:red;
+     
+ }

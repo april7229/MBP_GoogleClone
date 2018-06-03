@@ -23,11 +23,26 @@
     color: #666666;
 
 }
-.linktop{
+.linktop {
   display: flex;
   justify-content: space-between;   /* <- Left to Right ->*/
   align-items: center;       /* <- Top to Bottom ->*/
   color: #666666;
   margin:0.5rem;
   
+}
+ a:hover .linktop{
+    color:red;
+    
+
+}
+a:hover .toplink{
+    color:red;
+
+}
+a{
+    text-decoration:none;
+}
+.material-icons{
+    margin:0.5rem;
 }

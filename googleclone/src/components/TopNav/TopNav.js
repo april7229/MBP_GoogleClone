@@ -12,9 +12,10 @@ class TopNav extends Component {
                 <div className='toplinks'>
                     <a href="https://mail.google.com/mail"> <div className="linktop">Gmail</div></a>
                     <a href="https://images.google.com/"> <div className="linktop">Images</div></a>
-                    <a href="#"> <div className="linktop">#default</div></a>
-                    <a href="#">  <div className="linktop">#default</div></a>
-                    <a href="#"> <div className="linktop">#default</div></a>
+                    <i class="material-icons">favorite</i>
+                    <i class="material-icons">computer</i> 
+                    
+                    
                 </div>
             </div>
         );
