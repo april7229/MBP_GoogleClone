@@ -1,8 +1,33 @@
-topNav_wrapper {
+.TopNav_wrapper {
     display: flex;
     justify-content: center;   /* <- Left to Right ->*/
     align-items: center;       /* <- Top to Bottom ->*/
     background-color: #FFFFFF;
     width: 100%;
     height: 3.5rem;
+}
+.toplinks{
+  display: flex;
+    justify-content: center;   /* <- Left to Right ->*/
+    align-items: center;       /* <- Top to Bottom ->*/
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 3.5rem;
+}
+.toplink{
+   display: flex;
+    justify-content: center;   /* <- Left to Right ->*/
+    align-items: center;       /* <- Top to Bottom ->*/
+    height: 3.5rem;
+    margin:1.0rem;
+    color: #666666;
+
+}
+.linktop{
+  display: flex;
+  justify-content: space-between;   /* <- Left to Right ->*/
+  align-items: center;       /* <- Top to Bottom ->*/
+  color: #666666;
+  margin:0.5rem;
+  
 }
